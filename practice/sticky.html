@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+header{
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 40px; 
+}
+header.sticky{
+height: 50px;
+text-align: left;
+font-size: 15px;
+background-color: brown;
+line-height: 70px;
+}
+#contact{
+    margin-top: 20px;
+}
+#home{
+  padding-top: 100px;  
+}
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+ <script type="text/javascript">
+        $(window).scroll(function() {
+                if ($(this).scrollTop() > 100){  
+                        $('header').addClass("sticky");
+                }
+                else{
+                        $('header').removeClass("sticky");
+                }
+        });
+        </script>
+
+        
+ <body>
+     <div class="container-fluid">  
+         <header><h1>Header</h1></header>
+        </div>
+  
+    <div class="container" id="home">
+            
+            <h1>home</h1>
+            <p>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+            </p> 
+            <p>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                    <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                    <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                </p>    
+                <p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                        <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                        <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                    </p>    
+                    <p>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                            <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                            <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                        </p>     <p>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                            </p>            
+
+
+            </div>
+        
+        <div class="container-fluid" id="contact">
+            
+                <h1>contact</h1>
+                <p>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                    <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                    <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                </p>
+                <p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                        <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                        <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                    </p>    
+                    <p>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                            <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                            <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                        </p>
+                        <p>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                            </p>      
+                            <p>
+                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                                    <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                                    <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                                </p>               
+
+                
+            </div>
+            <div class="container-fluid" id="service">
+               
+                    <h1>service</h1>
+                     <p>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+            <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+            <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+        </p>
+        <p>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+            </p>    
+            <p>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                    <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                    <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                </p>  
+                <p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                        <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                        <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                    </p> 
+                    <p>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                            <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                            <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                        </p>         
+   
+                    </div>
+            
+                <div class="container-fluid" id="picture">
+                    
+                        
+       <h1>picture</h1>
+            <p>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+            </p>
+            <p>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                    <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                    <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                </p>    
+                <p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                        <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                        <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                    </p>     <p>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                            <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                            <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                        </p>  
+                        <p>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi natus ipsam perferendis soluta. Laudantium quaerat nam repellat! Corporis debitis sequi ad consequatur incidunt suscipit quibusdam, facere pariatur voluptates facilis.</span>
+                                <span>Adipisci atque quas id! Ipsam dolor, eligendi ab itaque accusantium vel ipsum consequatur debitis ex asperiores voluptas aliquid officia voluptates praesentium minima iste, ipsa nemo iusto sit? Veniam, soluta tempora.</span>
+                                <span>Similique earum consequuntur, perspiciatis fugit quas officia hic aliquid enim accusantium sed minima doloribus natus autem repudiandae dolores. Sunt architecto, officiis dolores id delectus nesciunt tenetur aliquam asperiores? Quidem, non?</span>
+                            </p>      
+       
+                        </div> 
+    
+</body>
+</html>
